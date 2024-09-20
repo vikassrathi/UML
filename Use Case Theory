@@ -2,18 +2,13 @@ Use case diagrams are used to show the interaction between the user and the syst
 
 This helps us to understand how the user acts and uses the system and what actions the user can do on the system.
 
-It has 3 main components.
-1. Actor- The user could be anything a user, admin, or system. They are represented by stick figures.
-For example: User or customer in delivery app
+1. **Actor**: Correct. Actors are entities (human users, external systems, or devices) that interact with the system. They are represented by stick figures and can be either primary (direct interaction) or secondary (indirect interaction). 
+   - Example: In a delivery app, actors could include "Customer" (placing orders) or "Delivery Person" (delivering parcels).
 
+2. **Use Cases**: Correct. Use cases describe the specific interactions between actors and the system, focusing on what the system should do. They are represented by ovals.
+   - Example: A use case like "Track Parcel" or "View Order History" in a delivery app.
 
-
-2. Use cases. These are the actions or features of the system and they are represented by oval shapes.
-For Example Feature of view activity in splits.
-
-
-3. SystemBoundary These are to define the scope of the system as what comes within the system and what acts as out of scope for the system. These are represented by the rectangle box.
-For example: For delivery applications tracking of parcels could be within scope but reward payment could be out of scope for now for the application
-
+3. **System Boundary**: Correct, though the description can be slightly refined. The system boundary defines the scope of the system, specifying what is part of the system and what is external to it. Everything inside the rectangle represents functionalities the system will handle, and everything outside represents external systems or actors.
+   - Example: For a delivery app, parcel tracking is inside the system boundary, while payment processing might be handled by an external payment gateway, outside the system boundary.
 
 https://www.geeksforgeeks.org/use-case-diagram/
