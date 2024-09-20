@@ -1,0 +1,19 @@
+Use case diagrams are used to show the interaction between the user and the system.
+
+This helps us to understand how the user acts and uses the system and what actions the user can do on the system.
+
+It has 3 main components.
+1. Actor- The user could be anything a user, admin, or system. They are represented by stick figures.
+For example: User or customer in delivery app
+
+
+
+2. Use cases. These are the actions or features of the system and they are represented by oval shapes.
+For Example Feature of view activity in splits.
+
+
+3. SystemBoundary These are to define the scope of the system as what comes within the system and what acts as out of scope for the system. These are represented by the rectangle box.
+For example: For delivery applications tracking of parcels could be within scope but reward payment could be out of scope for now for the application
+
+
+https://www.geeksforgeeks.org/use-case-diagram/
