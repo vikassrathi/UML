@@ -1,0 +1,36 @@
+Aggregration/Association/Composition/Generalization/Specialization
+
+
+Association
+- Definition: Association represents a relationship between two or more classes where they can communicate with each other. It is depicted by a straight line.
+- Multiplicity: It can show multiplicity between objects, indicating how many instances of one class relate to instances of another class.
+- Example: A student can have multiple teachers, and a teacher can have multiple students (many-to-many relationship).
+
+---
+
+Aggregation
+- Definition: Aggregation is a "whole-part" relationship where the child (part) can exist independently of the parent (whole). There is no strong dependency between classes.
+- Key Concept: If the parent class is deleted, the child class can still exist on its own.
+- Example: Deleting the "Teacher" class does not affect the existence of the "Student" class.
+
+---
+
+Composition
+- Definition: Composition is a stronger form of aggregation, implying a direct dependency between the parent and child classes. If the parent class is deleted, the child class is also deleted.
+- Key Concept: The child class cannot exist without the parent class.
+- Example: If a "House" class is deleted, its associated "Room" class is also deleted, as rooms are part of a house.
+
+---
+
+Generalization
+- Definition: Generalization is the process of extracting common characteristics from two or more classes and creating a generalized superclass.
+- Key Concept: It allows subclasses to inherit common attributes and behaviors from the generalized superclass.
+- Example: Both "Savings Account" and "Current Account" have similar features like an account number. A general "Bank Account" class can be created, which is then inherited by the "Savings Account" and "Current Account" classes.
+
+---
+
+Specialization
+- Definition: Specialization is the process of creating subclasses from a general class by adding more specific attributes and behaviors. It is the opposite of generalization.
+- Key Concept: It refines a general class into more specific subclasses.
+- Relation to Inheritance**: It is similar to inheritance, where subclasses inherit from a more general class.
+  
