@@ -1,0 +1,12 @@
+Functional Requirement:
+	1. Customer should be able to enter & exit from multiple gates
+	2. Customer should be able to make payment of ticket with card, UPI,Cash
+	3. Customer should be able to see parking spot on bilboard
+	4. Customer should be allowed to navigate to parking spot
+	5.Once parking spot is reserved system should remove that parking spot and marked it as reserved
+	6.System should be able to handle multiple user request at once.
+Non-Functional Requirement:
+	1.The system must respond to user right away with minmum latency.
+	2.System should focus on consistency and availability.
+	3.User interface should be easy to navigate
+	4.system should be up to date with the current data.
